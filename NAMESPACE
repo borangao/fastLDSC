@@ -2,6 +2,7 @@
 
 export(fast_ldsc)
 import(data.table)
+importFrom(Rcpp,evalCpp)
 importFrom(Rcpp,sourceCpp)
 importFrom(stats,cov)
 importFrom(stats,dnorm)

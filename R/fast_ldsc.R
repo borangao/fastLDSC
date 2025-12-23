@@ -2,7 +2,7 @@
 #'
 #' @import data.table
 #' @importFrom stats qnorm dnorm var cov na.omit
-#' @importFrom Rcpp sourceCpp
+#' @importFrom Rcpp sourceCpp evalCpp
 #' @useDynLib fastLDSC, .registration = TRUE
 #'
 #' @param trait_vec_1 Vector of sumstat file paths.
