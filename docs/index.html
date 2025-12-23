@@ -386,7 +386,7 @@ Optional dependencies</a>
 GitHub (skip if already installed)</h1>
 <pre class="r"><code>if (!requireNamespace(&quot;remotes&quot;, quietly = TRUE)) install.packages(&quot;remotes&quot;)
 remotes::install_github(&quot;borangao/fastLDSC&quot;)</code></pre>
-<pre><code>## Skipping install of &#39;fastLDSC&#39; from a github remote, the SHA1 (79ef1e8a) has not changed since last install.
+<pre><code>## Skipping install of &#39;fastLDSC&#39; from a github remote, the SHA1 (54b08f97) has not changed since last install.
 ##   Use `force = TRUE` to force installation</code></pre>
 <pre class="r"><code>library(fastLDSC)</code></pre>
 </div>
@@ -515,6 +515,9 @@ estimation).</li>
 <li><code>chr</code>: maximum chromosome index to read when using
 per-chromosome LD scores.</li>
 </ul>
+<p>The example GWAS summary statistics and reference data used in this
+tutorial are publicly available from Zenodo:</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.5281/zenodo.18040053" class="uri">https://doi.org/10.5281/zenodo.18040053</a></p>
 <pre class="r"><code>num_trait &lt;- 100
 cov_name  &lt;- &quot;gencov&quot;
 
