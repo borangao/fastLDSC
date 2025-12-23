@@ -15,7 +15,7 @@ install_github("borangao/fastLDSC")
 
 ## Quick Start
 
-See [Tutorial](https://borangao.github.io/meSuSie_Analysis/) for detailed documentation and examples.
+See [Tutorial](https://borangao.github.io/fastLDSC/) for detailed documentation and examples.
 
 ## Issues
 All feedback, bug reports and suggestions are warmly welcomed! Please make sure to raise issues with a detailed and reproducible exmple and also please provide the output of your sessionInfo() in R! 
