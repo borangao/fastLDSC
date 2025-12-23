@@ -11,6 +11,7 @@ To install the latest version of the fastLDSC package from GitHub, run the follo
 ```R
 library(devtools)
 install_github("borangao/fastLDSC")
+```
 
 ## Quick Start
 
