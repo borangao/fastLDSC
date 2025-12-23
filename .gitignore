@@ -2,14 +2,4 @@
 .Rhistory
 .RData
 .RDS
-*.o
-*.so
-*.dll
-src/*.o
-src/*.so
-src/*.dll
-src/*.a
-src/*.dylib
-src/RcppExports.cpp
-R/RcppExports.R
-man/*.Rd~
+
